@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np 
 from matplotlib import pyplot as plt
 
-img = cv.imread("georges\\170d5b93d80d247be60f22ca1216bef7.jpg",0)
+img = cv.imread("170d5b93d80d247be60f22ca1216bef7.jpg",0)
 
 
 f = np.fft.fft2(img)
