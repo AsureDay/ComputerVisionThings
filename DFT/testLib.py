@@ -8,7 +8,7 @@ img = cv.imread("170d5b93d80d247be60f22ca1216bef7.jpg",0)
 f = np.fft.fft2(img)
 fshift = np.fft.fftshift(f)
 magnitude_spectrum = 20*np.log(np.abs(fshift))
-#main things 
+#main things why
 
 plt.subplot(121),plt.imshow(img, cmap = 'gray')
 plt.title('Input Image'), plt.xticks([]), plt.yticks([])
